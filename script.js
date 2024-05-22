@@ -1,12 +1,12 @@
 
-let name = prompt("Ismingizni kiriting:");
-let spaceId = prompt("Yoshingizni kiriting:");
-let spacePassword = prompt("Manzilizni kiriting:");
+let name = prompt("Ismingizni kiriting");
+let spaceId = prompt("Space id kiriting");
+let spacePassword = prompt("Space password kiriting:");
 
 let spaceObject = {
   name: name,
-  age: spaceId,
-  center: spacePassword
+  id: spaceId,
+  password: spacePassword
 };
 
 console.log(spaceObject)
